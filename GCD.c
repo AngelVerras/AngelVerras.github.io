@@ -28,7 +28,6 @@ int main(int argc, char *argv[]) {
     }
     if (num0 < -1000000000000000000LL || num0 > 1000000000000000000LL || 
         num1 < -1000000000000000000LL || num1 > 1000000000000000000LL) {
-        printf("Input numbers out of range.\n");
         return 1;
     }
 
